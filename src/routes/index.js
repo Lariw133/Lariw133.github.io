@@ -12,7 +12,6 @@ export default function routes() {
     return (
         <Router>
             <Routes>
-                <Route path="*" element={<Page404/>} />
                 <Route exact path='/' element={<Login/>} />   
                 <Route exact path='/perfil' element={<Perfil/>} />   
                 <Route exact path='/faq' element={<FAQ/>} />  
